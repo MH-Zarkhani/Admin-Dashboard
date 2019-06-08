@@ -36,7 +36,7 @@
         <div class="container-fluid">
           <div class="row">
             <!-- sidebar -->
-            <div class="col-lg-3 sidebar fixed-top">
+            <div id="sidebar" class="col-xl-2 col-lg-3 col-md-4 fixed-top">
               <a
                 href="#"
                 class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 border-bottom"
@@ -120,7 +120,49 @@
               </ul>
             </div>
             <!-- top-nav -->
-            <div class="col-lg-9"></div>
+            <div id="top-nav" class="col-xl-10 col-lg-9 col-md-8 ml-auto bg-dark fixed-top py-2">
+              <div class="row align-items-center">
+                <div class="col-md-4 ">
+                  <h4 class="text-light text-uppercase mb-0">Dashboard</h4>
+                </div>
+                <div class="col-md-5">
+                  <form action="">
+                    <div class="input-group">
+                      <input
+                        class="form-control search-input text-light"
+                        placeholder="Search..."
+                        type="text"
+                      />
+                      <button
+                        type="submit"
+                        class="btn btn-light text-danger search-button"
+                      >
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-md-3">
+                  <ul class="navbar-nav">
+                    <li class="navbar-item p-2 icon-parent">
+                      <a href="" class="navbar-link icon-bullet">
+                        <i class="fas fa-comment text-muted fa-lg"></i>
+                      </a>
+                    </li>
+                    <li class="navbar-item p-2 icon-parent">
+                      <a href="" class="navbar-link icon-bullet">
+                        <i class="fas fa-bell text-muted fa-lg"></i>
+                      </a>
+                    </li>
+                    <li class="navbar-item p-2 ml-md-auto">
+                      <a href="" class="navbar-link">
+                        <i class="fas fa-sign-out-alt fa-lg text-danger"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
