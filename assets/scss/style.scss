@@ -73,12 +73,19 @@ body {
 }
 
 // card style
+
 .card-common {
   box-shadow: 1px 2px 5px #999;
   transition: all 0.3s;
   &:hover {
     box-shadow: 2px 3px 15px #999;
   }
+}
+
+//task style
+
+.task-border {
+  border-left: 3px solid #f66436;
 }
 
 @media (max-width: 768px) {

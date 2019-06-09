@@ -60,6 +60,9 @@ body {
   .card-common:hover {
     box-shadow: 2px 3px 15px #999; }
 
+.task-border {
+  border-left: 3px solid #f66436; }
+
 @media (max-width: 768px) {
   #sidebar {
     position: static;
