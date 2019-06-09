@@ -615,7 +615,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-xl-10 col-lg-9 col-md-8 ml-auto">
-            <div class="row mb-4">
+            <div class="row align-items-center mb-4">
               <div class="col-xl-7">
                 <h4 class="text-muted mb-4">Recent Customer Activities</h4>
                 <div id="accordion">
@@ -729,7 +729,83 @@
                   </div>
                 </div>
               </div>
-              <div class="col-xl-5"></div>
+              <div class="col-xl-5 mt-5">
+                <div class="card rounded">
+                  <div class="card-body">
+                    <h5 class="text-muted text-center mb-4">
+                      Quick Status Post
+                    </h5>
+                    <ul class="list-inline text-center py-3">
+                      <li class="list-inline-item mr-4">
+                        <a href="#">
+                          <i class="fas fa-pencil-alt text-success">
+                            <span class="h6 text-muted">Status</span>
+                          </i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item mr-4">
+                        <a href="#">
+                          <i class="fas fa-camera text-info">
+                            <span class="h6 text-muted">Photo</span>
+                          </i>
+                        </a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fas fa-map-marker-alt text-primary">
+                            <span class="h6 text-muted">Check-in</span>
+                          </i>
+                        </a>
+                      </li>
+                    </ul>
+                    <form action="#">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control py-2 mb-3"
+                          placeholder="What's your status ..."
+                        />
+                        <button
+                          type="submit"
+                          class="btn btn-info btn-block text-uppercase font-weight-bold text-light py-2 mb-5"
+                        >
+                          Submit Post
+                        </button>
+                      </div>
+                    </form>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="card bg-light">
+                          <i
+                            class="fas fa-calendar-alt fa-8x text-warning d-block m-auto py-3"
+                          ></i>
+                          <div class="card-body">
+                            <p
+                              class="card-text text-center font-weight-bold text uppercase"
+                            >
+                              Mon, May 26
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <div class="card bg-light">
+                          <i
+                            class="fas fa-clock fa-8x text-danger d-block m-auto py-3"
+                          ></i>
+                          <div class="card-body">
+                            <p
+                              class="card-text text-center font-weight-bold text uppercase"
+                            >
+                              3:30 AM
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
